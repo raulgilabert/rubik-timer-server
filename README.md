@@ -6,8 +6,8 @@ For running the server you need the packages express and sqlite3.
 
 Just run the commands:
 
-'npm install express'
-'npm install sqlite3'
+'''npm install express'''
+'''npm install sqlite3'''
 
 # To-do
 

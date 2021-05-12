@@ -4,11 +4,8 @@ Backend for the rubik's timer web
 # Installation guide
 For running the server you need the packages express and sqlite3.
 
-Just run the commands:
+Just run the command: `npm install` and npm will install all the needed packages to execute the backend server.
 
-`npm install express`
-
-`npm install sqlite3`
 
 # To-do
 

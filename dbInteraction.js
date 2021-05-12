@@ -50,18 +50,23 @@ function getTimesCube(req, res) {
     })
 }
 
+// Inserts data from client into the times table
 function setTime(req, res) {
+    // Gets the data from the client
     var user = req.query.user;
     var cube = req.query.cube;
     var time = req.query.time;
     var scramble = req.query.scramble;
 
+    // Inserts into the table the data received
     db.run("INSERT INTO times VALUES(?, ?, ?, ?)", [user, cube, time, scramble], (error) => {
         if (error != null) {
+            // Sends a confirmation of no errors to the client
             res.send("OK")
             res.end()
         }
         else {
+            // Sends server error to client
             res.sendStatus(500)
             res.end()
         }

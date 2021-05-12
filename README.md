@@ -13,7 +13,7 @@ Just run the commands:
 # To-do
 
 - [x] Send all the times table data to client
-- [ ] Add data sent by the client to times table
+- [x] Add data sent by the client to times table
 - [ ] Create users
 - [ ] Check user existance
 - [ ] Check password when log-in

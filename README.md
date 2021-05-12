@@ -1,4 +1,4 @@
-# rubik-timer-server
+# Rubik's cube timer backend
 Backend for the rubik's timer web
 
 # Installation guide

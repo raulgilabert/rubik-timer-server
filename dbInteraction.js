@@ -73,6 +73,13 @@ function setTime(req, res) {
     })
 }
 
+// Creates a user
+function createUser(req, res) {
+    // Gets the data from the client
+    var user = req.query.user;
+    var pass = req.query.pass;
+}
+
 exports.getAll = getAllData;
 exports.getCube = getTimesCube;
 exports.insertData = setTime;

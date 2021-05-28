@@ -13,7 +13,7 @@ function getAllData(req, res) {
 
     // Receives all the data from the times table
     db.all("SELECT * FROM times", (error, rows) => {
-        // Only views the information if the data received from the database is not undefined
+        // Only views the information if the data received from the database is defined
         if (typeof rows != "undefined") {
             // Inserts all the data in an array
             rows.forEach((row) => {
